@@ -1,0 +1,18 @@
+# For a full list of configuration options, see https://supabase.io/docs/reference/cli/config
+
+[project_id]
+# Required when linking a project. Find it on your project's dashboard.
+
+[api]
+port = 54321
+
+[db]
+port = 54322
+
+[studio]
+port = 54323
+
+[auth]
+enable_email_confirmations = true
+
+[functions]
