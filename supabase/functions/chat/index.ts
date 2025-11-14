@@ -1,5 +1,5 @@
-// FIX: Add Deno types reference to resolve Deno global object.
-/// <reference types="https://esm.sh/@types/deno" />
+// FIX: Added a Deno types reference to resolve Deno global object and type definitions.
+/// <reference types="https://deno.land/x/supabin/types.ts" />
 import { serve } from 'https://deno.land/std@0.168.0/http/server.ts'
 import { GoogleGenAI } from "https://esm.sh/@google/genai@^0.12.0";
 

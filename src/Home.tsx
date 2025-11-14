@@ -1419,7 +1419,7 @@ function OnboardingModal({ onComplete }: { onComplete: () => void }) {
 
   const handleBack = () => {
     if (step > 0) {
-      setStep(step - 1);
+      setStep(step + 1);
     }
   };
 
